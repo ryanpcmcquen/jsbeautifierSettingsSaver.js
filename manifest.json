@@ -12,7 +12,7 @@
 
   "content_scripts": [{
     "matches": [
-      "http://jsbeautifier.org",
+      "http://jsbeautifier.org/",
       "http://jsbeautifier.org/*"
     ],
     "js": [
