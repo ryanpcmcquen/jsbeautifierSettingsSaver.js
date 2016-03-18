@@ -1,3 +1,5 @@
+/*! jsbeautifierSettingsTweaks.js v0.1.0 by ryanpcmcquen */
+
 (function () {
 
   'use strict';
