@@ -1,0 +1,23 @@
+{
+
+  "manifest_version": 2,
+
+  "name": "JS Beautifier settings tweaks",
+  "description": "Changes jsbeautifier.org to have 2 spaces and be JSLint-happy by default.",
+  "version": "0.1.0",
+
+  "icons": {
+    "128": "jsbeautifierSettingsTweaks__icon.png"
+  },
+
+  "content_scripts": [{
+    "matches": [
+      "http://jsbeautifier.org",
+      "http://jsbeautifier.org/*"
+    ],
+    "js": [
+      "jsbeautifierSettingsTweaks.js"
+    ]
+  }]
+
+}
