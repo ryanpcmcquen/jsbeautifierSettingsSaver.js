@@ -1,9 +1,9 @@
-/*! jsbeautifierSettingsTweaks.js v0.1.0 by ryanpcmcquen */
+/*! jsbeautifierSettingsTweaks.js v0.1.1 by ryanpcmcquen */
 (function () {
 
   'use strict';
 
-  document.addEventListener('DOMContentLoaded', function () {
+  window.addEventListener('load', function () {
     // set any vars you want to change here
     var jslintCheckbox = document.getElementById('jslint-happy');
     var tabSize = document.getElementById('tabsize');
