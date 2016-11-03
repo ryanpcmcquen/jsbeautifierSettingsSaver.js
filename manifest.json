@@ -4,7 +4,7 @@
 
   "name": "JS Beautifier settings tweaks",
   "description": "Changes jsbeautifier.org to have 2 spaces and be JSLint-happy by default.",
-  "version": "0.1.1",
+  "version": "0.2.0",
 
   "icons": {
     "128": "jsbeautifierSettingsTweaks__icon.png"
