@@ -1,16 +1,13 @@
-/*! jsbeautifierSettingsTweaks.js v0.1.1 by ryanpcmcquen */
-(function () {
-
+/*! jsbeautifierSettingsTweaks.js v0.2.0 by ryanpcmcquen */
+window.addEventListener('load', function () {
   'use strict';
+  // Set any vars you want to change here:
+  var jslintCheckbox = document.getElementById('jslint-happy');
+  var tabSize = document.getElementById('tabsize');
+  var wrapLength = document.getElementById('wrap-line-length');
 
-  window.addEventListener('load', function () {
-    // set any vars you want to change here
-    var jslintCheckbox = document.getElementById('jslint-happy');
-    var tabSize = document.getElementById('tabsize');
-
-    // set your values for those vars here
-    tabSize.value = 2;
-    jslintCheckbox.checked = true;
-  });
-
-}());
+  // Set your values for those vars here:
+  tabSize.value = 2;
+  jslintCheckbox.checked = true;
+  wrapLength.value = 80;
+});
