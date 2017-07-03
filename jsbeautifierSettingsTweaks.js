@@ -1,4 +1,4 @@
-/*! jsbeautifierSettingsTweaks.js v0.3.0 by ryanpcmcquen */
+/*! jsbeautifierSettingsTweaks.js v0.3.1 by ryanpcmcquen */
 window.addEventListener('load', function () {
     'use strict';
     // Set any vars you want to change here:
@@ -9,5 +9,5 @@ window.addEventListener('load', function () {
     // Set your values for those vars here:
     tabSize.value = 4;
     jslintCheckbox.checked = true;
-    wrapLength.value = 120;
+    wrapLength.value = 0;
 });
