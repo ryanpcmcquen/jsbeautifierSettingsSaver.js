@@ -1,4 +1,4 @@
-/*! jsbeautifierSettingsTweaks.js v0.3.2 by ryanpcmcquen */
+/*! jsbeautifierSettingsTweaks.js v0.3.3 by ryanpcmcquen */
 window.addEventListener('load', function () {
     'use strict';
     // Set any vars you want to change here:
