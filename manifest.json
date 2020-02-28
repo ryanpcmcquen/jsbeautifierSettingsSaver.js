@@ -15,6 +15,9 @@
         "matches": [
             "http://jsbeautifier.org/",
             "http://jsbeautifier.org/*"
+
+            "https://beautifier.io/",
+            "https://beautifier.io/*"
         ],
         "js": [
             "jsbeautifierSettingsTweaks.js"
